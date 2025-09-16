@@ -41,12 +41,12 @@ ol {
 .content {
   display: flex;
   flex-direction: row;
-  justify-self: center;
   justify-content: space-between;
   align-items: end;
   gap: 30px;
   align-self: center;
   width: 1140px;
+  margin: 0 auto;
 }
 
 .result {
@@ -103,11 +103,11 @@ ol {
   padding: 0;
   outline: none;
   color: #fff;
-  background-color: transparent;
-  appearance: none;
-  font-size: 18px;
   font-family: Fira Sans Condensed, sans-serif;
   font-weight: 400;
+  font-size: 18px;
+  background-color: transparent;
+  appearance: none;
 }
 
 .search-form__textfield::placeholder {
@@ -237,7 +237,7 @@ label.search-form__textfield:focus {
   flex-direction: column;
   gap: 30px;
   height: 298px;
-  overflow:auto;
+  overflow: auto;
 }
 
 .content__list {
